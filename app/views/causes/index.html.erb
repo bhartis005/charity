@@ -1,0 +1,25 @@
+<h1 class="cause-heading">Support a cause! <p class="logout"><%= link_to "Logout", destroy_user_session_path, method: :delete %></h1>
+
+<div class="row">
+  <div class="col-md-9">
+    <ul>
+    <% @causes.each do |cause| %>
+        <li>
+        <p class="title"><b>Title: </b><%= cause.title %><br></p>
+        <p><b>About: </b><%= cause.body %></p>
+        </li>
+
+    <% end %>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+

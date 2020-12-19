@@ -1,0 +1,41 @@
+// Place all the styles related to the Causes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.cause-heading { 
+  display: block;
+  font-size: 2em;
+  margin-top: 0.30em;
+  margin-bottom: 0.67em;
+  text-align: center;
+  margin-right: 0;
+  font-weight: bold;
+  color:gray;
+  background-color: powderblue ;
+}
+
+.col-md-9 {
+    display: block;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    background-color: powderblue;
+    color: grey;
+}
+
+.title {
+    font-size: 1.4em;
+    color:black;
+    margin-top: 3em;
+
+}
+
+.logout {
+    font-size: 0.5em;
+    margin-left: 1100px;
+    color:gray;
+
+}
